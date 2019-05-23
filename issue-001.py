@@ -90,11 +90,3 @@ corgi_str = """{
 corgi = json.loads(lesson_str)
 corgi_ad = Advert(corgi)
 print(corgi_ad)
-adv = """{
-      "title": "Вельш-корги",
-      "price": 1000,
-      "class": "dogs",
-      "location": {
-        "address": "сельское поселение Ельдигинское, поселок санатория Тишково, 25"
-      }
-    }"""
